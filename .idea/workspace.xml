@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a066a557-21c9-4792-b1a1-d231661b783e" name="Changes" comment="test cancelar checkout moved to CheckOutTests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BookingDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestfulBookerTests.java" afterDir="false" />
+    <list default="true" id="a066a557-21c9-4792-b1a1-d231661b783e" name="Changes" comment="añadido tests restful">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookingWrong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestfulBookerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestfulBookerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +68,15 @@
     "JUnit.ProductPageTests.removeFromCartTest.executor": "Run",
     "JUnit.ProductPageTests.testCancelCheckoutAfterEnteringShippingInfo.executor": "Run",
     "JUnit.RestfulBookerTests.createBookingWithClassesTest.executor": "Run",
+    "JUnit.RestfulBookerTests.createInvalidBookingWithClassesTest.executor": "Run",
     "JUnit.RestfulBookerTests.executor": "Run",
     "JUnit.RestfulBookerTests.getAllBookings.executor": "Run",
     "JUnit.RestfulBookerTests.getBookingTest.executor": "Run",
+    "JUnit.RestfulBookerTests.getBookingTest0.executor": "Run",
     "JUnit.RestfulBookerTests.getEmployeesTest.executor": "Run",
     "JUnit.RestfulBookerTests.pingTest.executor": "Run",
     "JUnit.RestfulBookerTests.testBookingsWithSpecificDates.executor": "Run",
+    "JUnit.RestfulBookerTests.testBookingsWithWrongDates.executor": "Run",
     "JUnit.RestfulBookerTests.testGetBooking.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -89,12 +90,12 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RestfulBookerTests.getAllBookings">
-    <configuration name="RestfulBookerTests.createBookingWithClassesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RestfulBookerTests.createInvalidBookingWithClassesTest">
+    <configuration name="RestfulBookerTests.createInvalidBookingWithClassesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
-      <option name="METHOD_NAME" value="createBookingWithClassesTest" />
+      <option name="METHOD_NAME" value="createInvalidBookingWithClassesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,21 +111,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestfulBookerTests.getBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestfulBookerTests.getBookingTest0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
-      <option name="METHOD_NAME" value="getBookingTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestfulBookerTests.pingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoSegundoParcial" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
-      <option name="METHOD_NAME" value="pingTest" />
+      <option name="METHOD_NAME" value="getBookingTest0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,13 +131,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestfulBookerTests.testBookingsWithWrongDates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoSegundoParcial" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
+      <option name="METHOD_NAME" value="testBookingsWithWrongDates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestfulBookerTests.createInvalidBookingWithClassesTest" />
+        <item itemvalue="JUnit.RestfulBookerTests.getBookingTest0" />
+        <item itemvalue="JUnit.RestfulBookerTests.testBookingsWithWrongDates" />
         <item itemvalue="JUnit.RestfulBookerTests.getAllBookings" />
         <item itemvalue="JUnit.RestfulBookerTests.testBookingsWithSpecificDates" />
-        <item itemvalue="JUnit.RestfulBookerTests.getBookingTest" />
-        <item itemvalue="JUnit.RestfulBookerTests.createBookingWithClassesTest" />
-        <item itemvalue="JUnit.RestfulBookerTests.pingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725413890531</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="añadido tests restful">
+      <option name="closed" value="true" />
+      <created>1725489600293</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725489600293</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,7 +208,8 @@
     <MESSAGE value="test inventorio agregado" />
     <MESSAGE value="test cancelar checkout agregado" />
     <MESSAGE value="test cancelar checkout moved to CheckOutTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="test cancelar checkout moved to CheckOutTests" />
+    <MESSAGE value="añadido tests restful" />
+    <option name="LAST_COMMIT_MESSAGE" value="añadido tests restful" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -38,6 +38,15 @@ public class RestfulBookerTests {
         response.then().log().body(); // Mostrar el cuerpo de la respuesta
     }
     @Test
+    public void getBookingTest0() {
+        Response response = RestAssured
+                .given().pathParam("id", "0")
+                .when().get("/booking/{id}");
+
+        response.then().assertThat().statusCode(404);
+        response.then().log().body(); // Mostrar el cuerpo de la respuesta
+    }
+    @Test
     public void getAllBookings(){
         Response response = RestAssured
                 .when().get("/booking");
@@ -65,6 +74,23 @@ public class RestfulBookerTests {
         response.then().log().body();
     }
     @Test
+    public void createInvalidBookingWithClassesTest() {
+        // Crear un objeto BookingDates con las fechas de check-in y check-out
+        BookingDates bookingDates = new BookingDates("2023-10-10", "2023-10-15");
+
+        // Crear un objeto Booking con los detalles de la reserva
+        BookingWrong booking = new BookingWrong(1, "1", 150, true, bookingDates, "Breakfast");
+
+        Response response = given()
+                .header("Content-Type", "application/json")
+                .header("Accept", "application/json") // Header 'Accept' agregado
+                .body(booking)
+                .when().post("/booking");
+
+        response.then().assertThat().statusCode(500);
+        response.then().log().body();
+    }
+    @Test
     public void testBookingsWithSpecificDates() {
         // Cambia las fechas según sea necesario
         String checkin = "2019-03-14";
@@ -78,6 +104,22 @@ public class RestfulBookerTests {
 
         // Verificar que el código de respuesta sea 200
         response.then().assertThat().statusCode(200);
+        response.then().log().body();
+    }
+    @Test
+    public void testBookingsWithWrongDates() {
+        // Cambia las fechas según sea necesario
+        String checkin = "";
+        String checkout = "";
+
+        Response response = given()
+                .header("Accept", "application/json") // Header 'Accept' agregado
+                .queryParam("checkin", checkin)        // Parámetro dinámico de checkin
+                .queryParam("checkout", checkout)      // Parámetro dinámico de checkout
+                .when().get("/booking");
+
+        // Verificar que el código de respuesta sea 200
+        response.then().assertThat().statusCode(500);
         response.then().log().body();
     }
 
