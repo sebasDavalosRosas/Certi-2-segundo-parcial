@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a066a557-21c9-4792-b1a1-d231661b783e" name="Changes" comment="test cancelar checkout agregado">
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckOutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckOutTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductPageTests.java" afterDir="false" />
+    <list default="true" id="a066a557-21c9-4792-b1a1-d231661b783e" name="Changes" comment="test cancelar checkout moved to CheckOutTests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestfulBookerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,24 +31,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sebasDavalosRosas"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sebasDavalosRosas&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sebasDavalosRosas/Certi-2-segundo-parcial.git",
-    "accountId": "0c662390-c86e-47f1-90bb-5941fdc11e98"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sebasDavalosRosas/Certi-2-segundo-parcial.git&quot;,
+    &quot;accountId&quot;: &quot;0c662390-c86e-47f1-90bb-5941fdc11e98&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lZzKsGlFY1tZkH8qnom3vvwCRQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -66,11 +69,19 @@
     "JUnit.ProductPageTests.addToCartTest.executor": "Run",
     "JUnit.ProductPageTests.removeFromCartTest.executor": "Run",
     "JUnit.ProductPageTests.testCancelCheckoutAfterEnteringShippingInfo.executor": "Run",
+    "JUnit.RestfulBookerTests.createBookingWithClassesTest.executor": "Run",
+    "JUnit.RestfulBookerTests.executor": "Run",
+    "JUnit.RestfulBookerTests.getAllBookings.executor": "Run",
+    "JUnit.RestfulBookerTests.getBookingTest.executor": "Run",
+    "JUnit.RestfulBookerTests.getEmployeesTest.executor": "Run",
+    "JUnit.RestfulBookerTests.pingTest.executor": "Run",
+    "JUnit.RestfulBookerTests.testBookingsWithSpecificDates.executor": "Run",
+    "JUnit.RestfulBookerTests.testGetBooking.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Materias II-2024/Certi II/Segundo parcial ejemplos/Selenium-Example",
+    "last_opened_file_path": "D:/Materias II-2024/Certi II/Proyectos/ProyectoSegundoParcial",
     "onboarding.tips.debug.path": "D:/Materias II-2024/Certi II/Proyectos/ProyectoSegundoParcial/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -78,52 +89,52 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ProductPageTests.testCancelCheckoutAfterEnteringShippingInfo">
-    <configuration name="CheckOutTests.testCompleteCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RestfulBookerTests.getAllBookings">
+    <configuration name="RestfulBookerTests.createBookingWithClassesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckOutTests" />
-      <option name="METHOD_NAME" value="testCompleteCheckout" />
+      <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
+      <option name="METHOD_NAME" value="createBookingWithClassesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckOutTests.testEmptyFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestfulBookerTests.getAllBookings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckOutTests" />
-      <option name="METHOD_NAME" value="testEmptyFields" />
+      <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
+      <option name="METHOD_NAME" value="getAllBookings" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.testInventoryItemCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestfulBookerTests.getBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTests" />
-      <option name="METHOD_NAME" value="testInventoryItemCount" />
+      <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
+      <option name="METHOD_NAME" value="getBookingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductPageTests.removeFromCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestfulBookerTests.pingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductPageTests" />
-      <option name="METHOD_NAME" value="removeFromCartTest" />
+      <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
+      <option name="METHOD_NAME" value="pingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductPageTests.testCancelCheckoutAfterEnteringShippingInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestfulBookerTests.testBookingsWithSpecificDates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductPageTests" />
-      <option name="METHOD_NAME" value="testCancelCheckoutAfterEnteringShippingInfo" />
+      <option name="MAIN_CLASS_NAME" value="RestfulBookerTests" />
+      <option name="METHOD_NAME" value="testBookingsWithSpecificDates" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductPageTests.testCancelCheckoutAfterEnteringShippingInfo" />
-        <item itemvalue="JUnit.HomePageTests.testInventoryItemCount" />
-        <item itemvalue="JUnit.CheckOutTests.testEmptyFields" />
-        <item itemvalue="JUnit.CheckOutTests.testCompleteCheckout" />
-        <item itemvalue="JUnit.ProductPageTests.removeFromCartTest" />
+        <item itemvalue="JUnit.RestfulBookerTests.getAllBookings" />
+        <item itemvalue="JUnit.RestfulBookerTests.testBookingsWithSpecificDates" />
+        <item itemvalue="JUnit.RestfulBookerTests.getBookingTest" />
+        <item itemvalue="JUnit.RestfulBookerTests.createBookingWithClassesTest" />
+        <item itemvalue="JUnit.RestfulBookerTests.pingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +183,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725413100653</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test cancelar checkout moved to CheckOutTests">
+      <option name="closed" value="true" />
+      <created>1725413890531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725413890531</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ultimo" />
     <MESSAGE value="test inventorio agregado" />
     <MESSAGE value="test cancelar checkout agregado" />
-    <option name="LAST_COMMIT_MESSAGE" value="test cancelar checkout agregado" />
+    <MESSAGE value="test cancelar checkout moved to CheckOutTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="test cancelar checkout moved to CheckOutTests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
