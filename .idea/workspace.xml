@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a066a557-21c9-4792-b1a1-d231661b783e" name="Changes" comment="test inventorio agregado" />
+    <list default="true" id="a066a557-21c9-4792-b1a1-d231661b783e" name="Changes" comment="test cancelar checkout agregado">
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckOutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckOutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductPageTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -57,6 +65,7 @@
     "JUnit.HomePageTests.testSortProductsByPriceLowToHigh.executor": "Run",
     "JUnit.ProductPageTests.addToCartTest.executor": "Run",
     "JUnit.ProductPageTests.removeFromCartTest.executor": "Run",
+    "JUnit.ProductPageTests.testCancelCheckoutAfterEnteringShippingInfo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -155,13 +164,22 @@
       <option name="project" value="LOCAL" />
       <updated>1725412487845</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test cancelar checkout agregado">
+      <option name="closed" value="true" />
+      <created>1725413100653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725413100653</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ultimo" />
     <MESSAGE value="test inventorio agregado" />
-    <option name="LAST_COMMIT_MESSAGE" value="test inventorio agregado" />
+    <MESSAGE value="test cancelar checkout agregado" />
+    <option name="LAST_COMMIT_MESSAGE" value="test cancelar checkout agregado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
