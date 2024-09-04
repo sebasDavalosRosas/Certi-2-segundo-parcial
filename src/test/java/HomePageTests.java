@@ -123,4 +123,9 @@ public class HomePageTests extends BaseTest {
         }
         assertTrue(isSorted, "Los productos deben estar ordenados por precio de mayor a menor.");
     }
+    @Test
+    public void testInventoryItemCount() {
+        List<WebElement> inventoryItems = driver.findElements(By.className("inventory_item"));
+        assertEquals(6, inventoryItems.size(), "El inventario debería mostrar 6 productos.");
+    }
 }

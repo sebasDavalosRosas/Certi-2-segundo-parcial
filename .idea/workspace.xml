@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a066a557-21c9-4792-b1a1-d231661b783e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckOutTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TypeLogin.java" afterDir="false" />
+    <list default="true" id="a066a557-21c9-4792-b1a1-d231661b783e" name="Changes" comment="ultimo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sebasDavalosRosas"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sebasDavalosRosas/Certi-2-segundo-parcial.git",
+    "accountId": "0c662390-c86e-47f1-90bb-5941fdc11e98"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -49,6 +51,7 @@
     "JUnit.HomePageTests.orderingFilterFromAToZTest.executor": "Run",
     "JUnit.HomePageTests.orderingFilterFromZToATest.executor": "Run",
     "JUnit.HomePageTests.testAddProductToCart.executor": "Run",
+    "JUnit.HomePageTests.testInventoryItemCount.executor": "Run",
     "JUnit.HomePageTests.testRemoveProductFromCart.executor": "Run",
     "JUnit.HomePageTests.testSortProductsByPriceHighToLow.executor": "Run",
     "JUnit.HomePageTests.testSortProductsByPriceLowToHigh.executor": "Run",
@@ -62,10 +65,11 @@
     "onboarding.tips.debug.path": "D:/Materias II-2024/Certi II/Proyectos/ProyectoSegundoParcial/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CheckOutTests.testEmptyFields">
+  <component name="RunManager" selected="JUnit.HomePageTests.testInventoryItemCount">
     <configuration name="CheckOutTests.testCompleteCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.orderingFilterFromAToZTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTests.testInventoryItemCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoSegundoParcial" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomePageTests" />
-      <option name="METHOD_NAME" value="orderingFilterFromAToZTest" />
+      <option name="METHOD_NAME" value="testInventoryItemCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HomePageTests.testInventoryItemCount" />
         <item itemvalue="JUnit.CheckOutTests.testEmptyFields" />
         <item itemvalue="JUnit.CheckOutTests.testCompleteCheckout" />
         <item itemvalue="JUnit.ProductPageTests.removeFromCartTest" />
         <item itemvalue="JUnit.ProductPageTests.addToCartTest" />
-        <item itemvalue="JUnit.HomePageTests.orderingFilterFromAToZTest" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +139,20 @@
       <option name="presentableId" value="Default" />
       <updated>1725402325798</updated>
     </task>
+    <task id="LOCAL-00001" summary="ultimo">
+      <option name="closed" value="true" />
+      <created>1725411359398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725411359398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ultimo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ultimo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
